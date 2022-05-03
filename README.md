@@ -13,6 +13,8 @@ Please download the folder named `data` found [here](https://drive.google.com/dr
 - `<parent_directory>/cu_mlfg_project`
 - `<parent_directory>/data`
 
+If you would like to change the data directory path, please modify the variable `DATA_DIR`, which is defined in the file `src/common_util.py`. Furthermore, if you would like to change the device used by PyTorch, please modify the variable `torch_device`, which is also defined in the file `src/common_util.py`.
+
 The code for the models in addition to utilities for training and evaluating the models can be found in the `src` folder. Accordingly, depending on which model you want to run, execute the following:
 
 - Variational Autoencoder (VAE): `python3 src/conv1d_vae.py` 
